@@ -77,16 +77,17 @@ l1= ['soya', 'butter', 'jam', 10, 'paneer', 4.87, 'curd', 'pathrado', 'sannapolo
 # l1.remove("butter")
 # print(l1) #['soya', 'jam', 10, 'paneer', 4.87, 'curd', 'pathrado', 'sannapolo']
 
-# print(l1.index("jam"))
+print(l1.index("jam"))
 #2
 
-# l1.clear()
-# print(l1)
+l1.clear()
+print(l1)
+#[]
 
 l2 = ["rashmi", "raghuveer"]
 l2.copy()
 print(l2)
 #['rashmi', 'raghuveer']
 
-#print(dir(list()))
+print(dir(list()))
 #'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
